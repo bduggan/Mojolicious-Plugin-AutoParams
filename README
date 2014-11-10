@@ -1,0 +1,6 @@
+Mojolicious-Plugin-AutoParams - Use placeholders as parameters for routes.
+
+This module automatically sends placeholders as a list of parameters to routes.
+
+Please see the pod for further documentation.
+
