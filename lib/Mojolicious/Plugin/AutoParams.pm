@@ -1,6 +1,5 @@
 package Mojolicious::Plugin::AutoParams;
 use Mojo::Base 'Mojolicious::Plugin';
-use Data::Dumper;
 use strict;
 use warnings;
 
