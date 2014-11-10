@@ -1,0 +1,11 @@
+.travis.yml
+Changes
+lib/Mojolicious/Plugin/AutoParams.pm
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+README.md
+t/00-params.t
+t/01-signatures.t
+t/02-named-params.t
+t/03-named-hash.t
