@@ -45,6 +45,10 @@ Mojolicious::Plugin::AutoParams - Use placeholders as parameters for routes.
 
 This module automatically sends placeholders as a list of parameters to routes.
 
+=head1 TODO
+
+Support sending named parameters in hashes instead of using positional parameters.
+
 =cut
 
 
