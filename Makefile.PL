@@ -10,5 +10,10 @@ WriteMakefile(
     ABSTRACT_FROM    => 'lib/Mojolicious/Plugin/AutoParams.pm',
     LICENSE          => 'Artistic_2_0',
     PREREQ_PM        => { 'Mojolicious' => '5.0' },
-    test             => {TESTS => 't/*.t'}
+    test             => {TESTS => 't/*.t'},
+    META_MERGE   => {
+        resources => {
+          repository => 'https://github.com/bduggan/Mojolicious-Plugin-AutoParams.git',
+        }
+    }
 );
