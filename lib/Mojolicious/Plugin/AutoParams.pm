@@ -39,7 +39,7 @@ sub register {
 
 =head1 NAME
 
-Mojolicious::Plugin::AutoParams - Send placeholders as parameters for routes.
+Mojolicious::Plugin::AutoParams - Send captured placeholder values as parameters for routes.
 
 =head1 SYNOPSIS
 
