@@ -76,6 +76,15 @@ the "named" option is set to 1.
 
 Setting 'named' to '_' will set the local $_ to a hashref of the placeholders.
 
+=head1 NOTES
+
+An alternative to this module is a one liner like this :
+
+  hook around_action => sub ($n,$c,$a,$l) {
+    $c->$a(map $c->stash($_), $c->match->endpoint->pattern->placeholders->@*);
+   };
+
+
 =head1 AUTHOR
 
 Brian Duggan <bduggan@matatu.org>
